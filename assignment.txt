@@ -1,0 +1,60 @@
+Part 1: Video Search Application with Binary Search
+
+Objective: The objective of this assignment is to develop a video search application that utilizes the binary search algorithm to quickly find specific videos in a sorted list.
+
+Problem Statement: You are tasked with building a video search function that allows users to search for videos by their titles using the binary search algorithm. This function should provide fast and efficient search functionality, enhancing the user experience.
+
+You can use this list videos in your Python code for further processing or manipulation.
+
+videos = [
+    {'id': 1, 'title': 'The Art of Coding', 'duration': 32},
+    {'id': 2, 'title': 'Exploring the Cosmos', 'duration': 44},
+    {'id': 3, 'title': 'Cooking Masterclass: Italian Cuisine', 'duration': 76},
+    {'id': 4, 'title': 'History Uncovered: Ancient Civilizations', 'duration': 77},
+    {'id': 5, 'title': 'Fitness Fundamentals: Strength Training', 'duration': 59},
+    {'id': 6, 'title': 'Digital Photography Essentials', 'duration': 45},
+    {'id': 7, 'title': 'Financial Planning for Beginners', 'duration': 40},
+    {'id': 8, 'title': "Nature's Wonders: National Geographic", 'duration': 45},
+    {'id': 9, 'title': 'Artificial Intelligence Revolution', 'duration': 87},
+    {'id': 10, 'title': 'Travel Diaries: Discovering Europe', 'duration': 78}
+]
+
+Task 1:
+Implement the binary search algorithm for searching videos by title.
+
+
+Task 2:
+Develop a REST API endpoint using Flask that allows users to search for videos by their titles using the binary search developed in Task 1. This API should accept a search query as input and return the matching videos, if any.
+
+
+Task 3:
+Test the video search functionality using Postman or a similar tool. Send requests to the API endpoint created in Task 2 with different search queries to verify its correctness and efficiency. Ensure that the API returns the expected results for both existing and non-existing videos.
+
+Expected Outcomes:
+Successful implementation of the binary search algorithm for efficient searching of videos by title.
+Development of a robust REST API endpoint using Flask, integrating the binary search algorithm from Task 1 to provide fast and accurate video search functionality.
+Verify the correctness and efficiency of the search algorithm, confirming that the API returns the expected results for both existing and non-existing videos.
+
+
+
+
+Part 2: Video Sorting with Merge Sort
+
+Objective: The objective of this assignment is to implement the merge sort algorithm to sort a list of videos based on their titles.
+
+Problem Statement: You are tasked with developing a video sorting function that sorts a list of videos alphabetically by their titles using the merge sort algorithm. This application will help users organize their video collections more efficiently. You should use the previous assignment project.
+
+Task 1:
+Implement the merge sort algorithm in Python to sort videos by their titles..
+
+
+Task 2:
+Develop another REST API endpoint using Flask that allows users to fetch a list of videos sorting alphabetically by their titles using the merge sort developed in Task 1.
+
+
+Task 3:
+Test the video sorting functionality using Postman or a similar tool. Send requests to the API endpoint created in Task 2 and verify its correctness and efficiency. Ensure that the API returns the expected results.
+
+Expected Outcomes:
+Successful implementation of the merge sort algorithm for sorting videos alphabetically by title.
+Correct sorting of video titles, enhancing the organization of video collections.
